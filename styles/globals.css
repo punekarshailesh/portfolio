@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+	overflow-x: hidden;
+	min-width: 360px;
+	font-family: 'SF Pro', sans-serif;
+	scroll-behavior: smooth;
+	scroll-padding-top: 80px;
+}
+
+.margin {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 4rem;
+}
+.margin-wide {
+	width: 100%;
+	max-width: 1300px;
+	margin: 0 auto;
+	padding: 0 4rem;
+}
+
+button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	height: 56px;
+	border-radius: 500px;
+	padding: 0 32px 2px 34px;
+	box-shadow: 0px 4px 16px rgba(27, 206, 230, 0.49);
+	color: #fff;
+	font-size: 19px;
+	font-weight: 600;
+	background-image: url('/images/blue-button-bg.svg');
+	background-color: #007df2;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: 0.2s ease all;
+}
+
+.button-outline {
+	background: none;
+	color: #000;
+	border: 1px solid var(--border-color);
+	box-shadow: none;
+}
+
+button:hover {
+	transform: scale(1.075);
+}
+button:active {
+	transform: scale(1);
+}
+
+@media (max-width: 1024px) {
+	.margin,
+	.margin-wide {
+		padding: 0 3rem;
+	}
+}
+
+@media (max-width: 767px) {
+	.margin,
+	.margin-wide {
+		padding: 0 1.5rem;
+	}
+}
+
+@media (max-width: 639px) {
+	.margin,
+	.margin-wide {
+		padding: 0 1rem;
+	}
+}
