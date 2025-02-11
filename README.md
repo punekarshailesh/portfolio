@@ -14,13 +14,13 @@
 
 ### ⭐️ [Live website]()
 
-## 🏙 Screenshots
+<!-- ## 🏙 Screenshots -->
 
-![Hero Section](./screenshots/screenshot-1.png)
-![Skills](./screenshots/screenshot-2.png)
-![Languages & Frameworks](./screenshots/screenshot-3.png)
-![Projects](./screenshots/screenshot-4.png)
-![Contact](./screenshots/screenshot-5.png)
+<!-- ![Hero Section](./screenshots/screenshot-1.png) -->
+<!-- ![Skills](./screenshots/screenshot-2.png) -->
+<!-- ![Languages & Frameworks](./screenshots/screenshot-3.png) -->
+<!-- ![Projects](./screenshots/screenshot-4.png) -->
+<!-- ![Contact](./screenshots/screenshot-5.png) -->
 
 
 ## 💿 Usage
